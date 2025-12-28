@@ -1,0 +1,32 @@
+Project: Husqvarna Motorcycles Tribute Website
+
+1. HTML Pages (4 total):
+- index.html: Home page with welcome jumbotron.
+- history.html: Simplified timeline of the brand.
+- models.html: List of current motorcycle models.
+- contact.html: Contact form for user inquiries.
+
+2. HTML Tags Used (11 total):
+- <html>, <head>, <body>, <nav>, <main>, <section>, <header>, <footer>, <div>, <h1>, <p>.
+
+3. CSS Properties Used (5 total):
+- font-family: Set global typography.
+- line-height: Improved text readability.
+- font-weight: Used to emphasize headers and branding.
+- letter-spacing: Styled the navbar logo for a modern look.
+- border-top: Created visual separation for the contact form and footer.
+
+4. Bootstrap Features Integrated:
+- Grid System (row, col-md, container): Used to ensure a responsive layout on mobile and desktop.
+- Navbar Component: Used for consistent site navigation across all pages.
+- Form Components: Used for styled input fields on the contact page.
+- Utilities: Used spacing (my-5, p-4) and text alignment classes.
+
+5. JavaScript Interactivity:
+- Used an 'onclick' event on index.html and history.html to display welcome/fact alerts.
+- Used a 'for' loop on models.html to apply click listeners to all model buttons efficiently.
+- Used 'event.preventDefault()' on contact.html to handle form submission without a page reload.
+
+6. Mobile Responsiveness:
+- The site was tested using Chrome DevTools' mobile simulation. 
+- By using Bootstrap's responsive grid, the content stacks vertically on small screens and expands to multiple columns on larger displays.
